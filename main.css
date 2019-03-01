@@ -1,0 +1,53 @@
+body {
+    background: #2ecc71;
+}
+
+#heading {
+    text-align: center;
+}
+
+#container {
+    /* width: 1000px; */
+    background: #2c3e50;
+}
+
+#content .dino {
+    background: red;
+    height: 260px;
+    padding: 10px;
+    margin: 0px;
+}
+
+#content .dino .pic_left {
+    float: left;
+    height: 240px;
+}
+
+#content .dino .story_right {
+    background: #2980b9;
+    float: right;
+    padding: 10px;
+    width: 700px;
+}
+
+#content .dino .pic_right {
+    float: right;
+    height: px;
+}
+
+#trex {
+    /* height: 250px; */
+    width: 460px;
+}
+
+#content .dino .story_left {
+    background: #2980b9;
+    float: left;
+    padding: 10px;
+    width: 700px;
+    margin: 10px;
+}
+
+#footer {
+    background: #eccc68;
+}
