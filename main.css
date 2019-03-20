@@ -4,15 +4,16 @@ body {
 
 #heading {
     text-align: center;
+    background: #0be881;
 }
 
 #container {
     /* width: 1000px; */
-    background: #2c3e50;
+    background: #4bcffa;
 }
 
 #content .dino {
-    background: red;
+    background: #0fbcf9;
     height: 260px;
     padding: 10px;
     margin: 0px;
@@ -20,7 +21,7 @@ body {
 
 #content .dino .pic_left {
     float: left;
-    height: 240px;
+    height: 240px;;
 }
 
 #content .dino .story_right {
@@ -28,16 +29,23 @@ body {
     float: right;
     padding: 10px;
     width: 700px;
+    color: #ffffff;
 }
 
 #content .dino .pic_right {
     float: right;
-    height: px;
+    /* height: px; */
 }
 
 #trex {
     /* height: 250px; */
     width: 460px;
+    background: white;
+}
+
+#steg {
+    width: 460px; 
+    background: #ffffff;
 }
 
 #content .dino .story_left {
@@ -46,8 +54,17 @@ body {
     padding: 10px;
     width: 700px;
     margin: 10px;
+    color: #ffffff;
 }
 
 #footer {
-    background: #eccc68;
+    height: 50px; 
+    background: #0984e3;  
 }
+
+#footer p {
+    margin: 0;
+    background: #74b9ff;
+    text-align: center;
+    color: #fff;
+  }
